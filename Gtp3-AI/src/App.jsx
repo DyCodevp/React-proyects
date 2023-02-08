@@ -1,9 +1,5 @@
 import React from 'react'
-import Article from './componets/article/Article'
-import Brand from './componets/brand/Brand'
-import Cta from './componets/cta/CTA'
-import Feature from './componets/feature/Feature'
-import Navbar from './componets/navbar/Navbar'
+import { Article, Brand, CTA, Feature, Navbar } from './componets'
 
 const App = () => {
   return (
@@ -12,7 +8,7 @@ const App = () => {
       <Navbar/>
       <Brand/>
       <Article/>
-      <Cta/>
+      <CTA/>
       <Feature/>
     </div>
 
