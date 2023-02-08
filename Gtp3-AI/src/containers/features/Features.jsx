@@ -4,7 +4,7 @@ import './Features.css'
 
 const Features = () => {
   return (
-    <div>Blog</div>
+    <div>Feature</div>
   )
 }
 

@@ -4,7 +4,7 @@ import './whatGPT3.css'
 
 const WhatGPT3 = () => {
   return (
-    <div>Blog</div>
+    <div>WhatGPT3</div>
   )
 }
 
