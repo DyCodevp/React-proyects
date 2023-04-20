@@ -4,13 +4,22 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+<<<<<<< HEAD
 body {
   background: var(--color-bg);
 }
+=======
+
+body {
+  background: var(--color-bg);
+}
+
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
 a {
   color: unset;
   text-decoration: none;
 }
+<<<<<<< HEAD
 .gradient__bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,
@@ -45,27 +54,61 @@ a {
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
   );
+=======
+
+.gradient__bg {
+  background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
 }
 
 .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
+<<<<<<< HEAD
   -webkit-background-clip: text;
+=======
+  -webkit-background-clop: text;
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
   -webkit-text-fill-color: transparent;
 }
 
 .section__padding {
   padding: 4rem 6rem;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
 }
 
 .section__margin {
   margin: 4rem 6rem;
+<<<<<<< HEAD
 }
 
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+=======
+
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
 }
 
 @-webkit-keyframes scale-up-center {
@@ -73,6 +116,10 @@ a {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -84,6 +131,10 @@ a {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -98,6 +149,10 @@ a {
   .section__margin {
     margin: 4rem;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
 }
 
 @media screen and (max-width: 550px) {
@@ -108,4 +163,9 @@ a {
   .section__margin {
     margin: 4rem 2rem;
   }
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> 7bce488b2fe41e52908697b0776a944b3204d538
